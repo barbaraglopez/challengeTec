@@ -1,0 +1,40 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Cambiado el valor alpha para un fondo más oscuro */
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: #0a192f; /* Color de fondo más oscuro */
+  color: #a8b2d1; /* Color de texto */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8); /* Aumentado el desenfoque para una sombra más pronunciada */
+}
+
+.modal-content {
+  text-align: center;
+}
+
+.modal button {
+  margin-top: 20px; /* Aumentado el margen superior */
+  padding: 10px 20px; /* Aumentado el espacio dentro del botón */
+  border-radius: 5px;
+  border: 1px solid #66fcf1; /* Borde del botón */
+  background-color: transparent; /* Fondo transparente */
+  color: #66fcf1; /* Color del texto */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; /* Transición suave al pasar el mouse */
+}
+
+.modal button:hover {
+  background-color: #66fcf1; /* Color de fondo al pasar el mouse */
+  color: #0a192f; /* Color de texto al pasar el mouse */
+}

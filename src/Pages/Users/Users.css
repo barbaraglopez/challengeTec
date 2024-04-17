@@ -1,0 +1,83 @@
+.title {
+  font-size: 24px;
+  font-weight: bolder;
+  margin: 15px;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  padding: 5px;
+}
+
+.buttonLogout {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  border: 0px solid white;
+  padding: 20px;
+  height: 50px;
+  background-color: #2e86c1;
+  color: rgb(240, 239, 239);
+  font-weight: bolder;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.buttonLogout:hover {
+  background-color: #85c1e9;
+  color: black;
+}
+
+.users-container {
+  padding: 20px;
+  background-color: #d6dbdf;
+  height: 90vh;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+}
+
+.users-table th,
+.users-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+  font-size: 16px;
+}
+
+.users-table th {
+  background-color: #f2f2f2;
+}
+
+.users-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.users-table tr:hover {
+  background-color: #ddd;
+}
+
+.table-container {
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+
+.user-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.no-photo {
+  color: gray;
+}
