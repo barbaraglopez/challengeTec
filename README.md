@@ -26,4 +26,4 @@ Este es un challenge tecnico, espero que lo disfruten como yo disfrute haciendol
 Para preguntas o sugerencias relacionadas con el proyecto, no dudes en ponerte en contacto con el equipo de desarrollo en [barbaralopezbbbnb@gmail.com].
 
 ## Puedes verlo aqui
-- [link](https://www.streambe.com)
+- [link](https://challenge-tec.vercel.app/)
